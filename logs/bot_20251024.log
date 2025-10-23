@@ -1,0 +1,39 @@
+2025-10-24 02:09:02 - elysia_bot - INFO - Elysia AI Bot started - Version 2.0.0
+2025-10-24 02:09:14 - elysia_bot - INFO - Elysia AI Bot started - Version 2.0.0
+2025-10-24 02:09:37 - elysia_bot - INFO - User 509998285 sent text: Dima...
+2025-10-24 02:09:39 - elysia_bot - INFO - API deepseek: 401 (0.63s)
+2025-10-24 02:09:39 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-24 02:09:39 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.64s
+2025-10-24 02:10:05 - elysia_bot - INFO - Elysia AI Bot started - Version 2.0.0
+2025-10-24 02:11:30 - elysia_bot - INFO - User 8020256252 sent text: Jh...
+2025-10-24 02:11:30 - elysia_bot - INFO - User 8020256252 sent text: Jh...
+2025-10-24 02:11:31 - elysia_bot - INFO - API deepseek: 401 (0.46s)
+2025-10-24 02:11:31 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-24 02:11:31 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.46s
+2025-10-24 02:11:31 - elysia_bot - INFO - API deepseek: 401 (0.46s)
+2025-10-24 02:11:31 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-24 02:11:31 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.46s
